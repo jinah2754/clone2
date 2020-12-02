@@ -10,8 +10,8 @@
 
     <!-- CSS STYLE -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/slick.css">
     <!-- 웹 폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
@@ -132,6 +132,7 @@
             <div id="cont_ban">
                 <div class="container">
                     <div class="ban">
+<!--
                     <a href="#" class="prev"><span class="ir_pm">이전 이미지</span></a>
                     <ul>
                         <li class="ban_img1"><a href="#"><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></li>
@@ -139,6 +140,16 @@
                         <li class="ban_img3"><a href="#"><img src="img/banner_link3.jpg" alt="로그인 폼 만들기"></a></li>
                     </ul>
                     <a href="#" class="next"><span class="ir_pm">다음 이미지</span></a>
+-->
+                        <div><a href="#"><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></div>
+                        <div><a href="#"><img src="img/banner_link2.jpg" alt="CSS 버튼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link3.jpg" alt="로그인 폼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></div>
+                        <div><a href="#"><img src="img/banner_link2.jpg" alt="CSS 버튼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link3.jpg" alt="로그인 폼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></div>
+                        <div><a href="#"><img src="img/banner_link2.jpg" alt="CSS 버튼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link3.jpg" alt="로그인 폼 만들기"></a></div>
                     </div>
                 </div>
             </div>
@@ -263,7 +274,7 @@
                                 <div class="popup">
                                     <h4>Advertisement</h4>
                                     <ul>
-                                        <li><a href="#"><img src="img/sban07.jpg" alt="이미지1"></a></li>
+                                        <li class="layer"><a href="#"><img src="img/sban07.jpg" alt="이미지1"></a></li>
                                         <li><a href="#"><img src="img/sban08.jpg" alt="이미지2"></a></li>
                                         <li class="last"><a href="#"><img src="img/sban09.jpg" alt="이미지3"></a></li>
                                     </ul>
@@ -349,7 +360,7 @@
                                         </ul>
                                     </li>
                                     <li><a href="#"> 공지사항3</a>
-                                        <ul style="display: none;">
+                                        <ul>
                                             <li><a href="#">세 번째 공지사항 탭 메뉴 테스트 목록입니다.</a></li>
                                             <li><a href="#">세 번째 공지사항 탭 메뉴 테스트 목록입니다.</a></li>
                                             <li><a href="#">세 번째 공지사항 탭 메뉴 테스트 목록입니다.</a></li>
@@ -378,14 +389,21 @@
                                 <div class="gallery">
                                     <h4>포트폴리오</h4>
                                     <div class="gallery_btn">
+<!--
                                         <ul>
                                             <li class="gb_icon1"><a href="#"><span class="ir_pm">시작</span></a></li>
                                             <li class="gb_icon2"><a href="#"><span class="ir_pm">정지</span></a></li>
                                             <li class="gb_icon3"><a href="#"><span class="ir_pm">이전이미지</span></a></li>
                                             <li class="gb_icon4"><a href="#"><span class="ir_pm">다음이미지</span></a></li>
                                         </ul>
+-->
+                                        <button class="gb_icon1 paly"><span class="ir_pm">시작</span></button>
+                                        <button class="gb_icon2 pause"><span class="ir_pm">정지</span></button>
+                                        <button class="gb_icon3 prev"><span class="ir_pm">이전이미지</span></button>
+                                        <button class="gb_icon4 next"><span class="ir_pm">다음이미지</span></button>
                                     </div>
                                     <div class="gallery_img">
+<!--
                                         <ul>
                                             <li><a href ="#"><img src="img/gallery01.jpg" alt="갤러리1"></a></li>
                                             <li><a href ="#"><img src="img/gallery02.jpg" alt="갤러리2"></a></li>
@@ -393,6 +411,12 @@
                                             <li><a href ="#"><img src="img/gallery04.jpg" alt="갤러리4"></a></li>
                                             <li><a href ="#"><img src="img/gallery05.jpg" alt="갤러리5"></a></li>
                                         </ul>
+-->
+                                        <div><a href ="#"><img src="img/gallery01.jpg" alt="갤러리1"></a></div>
+                                        <div><a href ="#"><img src="img/gallery02.jpg" alt="갤러리2"></a></div>
+                                        <div><a href ="#"><img src="img/gallery03.jpg" alt="갤러리3"></a></div>
+                                        <div><a href ="#"><img src="img/gallery04.jpg" alt="갤러리4"></a></div>
+                                        <div><a href ="#"><img src="img/gallery05.jpg" alt="갤러리5"></a></div>
                                     </div>
                                 </div>
                             <!-- //갤러리 -->
@@ -434,5 +458,99 @@
         <!-- //footer -->
     </div>
     <!-- //wrap -->
+
+    <!-- layer popup -->
+    <div id="layer">
+        <img src="img/webstandard1.jpg" alt="웹표준 사이트">
+        <a href="#" class="close">Close</a>
+    </div>
+    <!-- //layer popup -->
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script type="text/javascript">
+        //레이어 팝업
+        $(".layer").click(function(e){
+            e.preventDefault();
+            //$("#layer").css("display","block");
+            //$("#layer").show();
+            $("#layer").fadeIn();
+            //$("#layer").slideDown();
+        });
+        $("#layer .close").click(function(e){
+            e.preventDefault();
+            //$("#layer").css("display","block");
+            //$("#layer").show();
+            $("#layer").fadeOut();
+            //$("#layer").slideUp();
+        });
+
+        //탭메뉴
+        var $tab_list = $(".tab_menu");
+
+        $tab_list.find("ul ul").hide();
+        $tab_list.find("li.active > ul").show();
+
+        function tabMenu(e){
+            e.preventDefault();
+            var $this = $(this);
+            $this.next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").find(">ul").hide();
+        }
+        $tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
+
+        // 배너 
+        $(".ban").slick({
+            infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true
+        });
+
+        //갤러리
+        $(".gallery_img").slick({
+            arrows: false,
+            fade: true,
+            pauseOnHover: true,
+            arrows: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            speed: 300,
+            slidesToShow: 1
+        });
+
+        $(".play").click(function(){
+            $(".gallery_img").slick("slickPlay");
+        });
+
+        $(".pause").click(function(){
+            $(".gallery_img").slick("slickPause");
+        });
+
+        $(".prev").click(function(){
+            $(".gallery_img").slick("slickPrev");
+        });
+
+        $(".next").click(function(){
+            $(".gallery_img").slick("slickNext");
+        });
+
+
+        //버튼을 클릭하면 전체 메뉴를 보이게 하세요.
+        $(".tit .btn").click(function(e){
+            e.preventDefault();
+            //$("#cont_nav").css("display","block");
+            //$("#cont_nav").show();
+            //$("#cont_nav").fadeIn(); ->천천히 나타남
+            //$("#cont_nav").slideDown(); ->슬라이드 효과
+            //$("#cont_nav").toggle();
+            //$("#cont_nav").fadeToggle();
+            $("#cont_nav").slideToggle(200);
+            $(this).toggleClass("on");           
+        });
+    </script>
 </body>
 </html>
